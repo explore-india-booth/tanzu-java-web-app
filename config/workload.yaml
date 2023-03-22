@@ -17,12 +17,12 @@ spec:
     value:
       job-name: maven_test
       secret-name: jenkins-tls
-      job-params: "[{\"name\":\"GIT-URL\",\"value\":\"https://github.com/Eknathreddy09/tanzu-java-web-app\"},{\"name\":\"GIT-BRANCH\",\"value\":\"main\"}]"
+      job-params: "[{\"name\":\"GIT-URL\",\"value\":\"https://github.com/explore-india-booth/tanzu-java-web-app\"},{\"name\":\"GIT-BRANCH\",\"value\":\"main\"}]"
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
   source:
     git:
-      url: https://github.com/Eknathreddy09/tanzu-java-web-app
+      url: https://github.com/explore-india-booth/tanzu-java-web-app
       ref:
         branch: main
